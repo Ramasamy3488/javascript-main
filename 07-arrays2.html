@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .container{
+      max-width: 1100px;
+      width: 100%;
+      margin: 0 auto;
+    }
+    #fruits{
+      display: flex;
+      flex-wrap: wrap;     
+      justify-content: space-around; 
+    }
+    img{
+      display: block;
+      width: 100%;
+      height: 250px;
+    }
+    #fruits div{
+      width: 23%;
+      box-shadow: 2px 3px 15px rgb(222, 225, 227);
+      margin: 20px 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div id="fruits">
+
+    </div>
+
+  </div>
+  </div>
+  
+  
+
+  <script>
+    var foods = [
+      {
+        "name":"Apples",
+        "benefits": "Apples contain fiber, vitamin C, and numerous antioxidants. They are very filling and make the perfect snack if you’re hungry between meals.",
+        "image":"./images/apple.jfif",
+        "price":"Rs.120/kg"
+      },
+      {
+        "name":"Avocados",
+        "benefits": "Avocados are different from most other fruits because they contain lots of healthy fat. They are not only creamy and tasty but also high in fiber, potassium, and vitamin C. Swap mayonnaise for avocado as a salad dressing, or spread it on toast for breakfast.",
+        "image":"./images/avocados.jfif",
+        "price":"Rs.150/kg"
+      },
+      {
+        "name":"Bananas",
+        "benefits": "Bananas are a good source of potassium. They’re also high in vitamin B6 and fiber and are convenient and portable.",
+        "image":"./images/bananas.jfif",
+        "price":"Rs.80/kg"
+      },
+      {
+        "name":"Blueberries",
+        "benefits": "Blueberries are both delicious and high in antioxidants.",
+        "image":"./images/blueberries.jfif",
+        "price":"Rs.180/kg"
+      },
+      {
+        "name":"Oranges",
+        "benefits": "Oranges are well known for their vitamin C content. What’s more, they’re high in fiber and antioxidants.",
+        "image":"./images/oranges.jfif",
+        "price":"Rs.100/kg"
+      },
+      {
+        "name":"Apples",
+        "benefits": "Apples contain fiber, vitamin C, and numerous antioxidants. They are very filling and make the perfect snack if you’re hungry between meals.",
+        "image":"./images/apple.jfif",
+        "price":"Rs.120/kg"
+      },
+      {
+        "name":"Avocados",
+        "benefits": "Avocados are different from most other fruits because they contain lots of healthy fat. They are not only creamy and tasty but also high in fiber, potassium, and vitamin C. Swap mayonnaise for avocado as a salad dressing, or spread it on toast for breakfast.",
+        "image":"./images/avocados.jfif",
+        "price":"Rs.150/kg"
+      },
+      {
+        "name":"Bananas",
+        "benefits": "Bananas are a good source of potassium. They’re also high in vitamin B6 and fiber and are convenient and portable.",
+        "image":"./images/bananas.jfif",
+        "price":"Rs.80/kg"
+      },
+      {
+        "name":"Blueberries",
+        "benefits": "Blueberries are both delicious and high in antioxidants.",
+        "image":"./images/blueberries.jfif",
+        "price":"Rs.180/kg"
+      },
+      {
+        "name":"Oranges",
+        "benefits": "Oranges are well known for their vitamin C content. What’s more, they’re high in fiber and antioxidants.",
+        "image":"./images/oranges.jfif",
+        "price":"Rs.100/kg"
+      },
+      {
+        "name":"Blueberries",
+        "benefits": "Blueberries are both delicious and high in antioxidants.",
+        "image":"./images/blueberries.jfif",
+        "price":"Rs.180/kg"
+      },
+      {
+        "name":"Oranges",
+        "benefits": "Oranges are well known for their vitamin C content. What’s more, they’re high in fiber and antioxidants.",
+        "image":"./images/oranges.jfif",
+        "price":"Rs.100/kg"
+      }
+    ]
+
+    var res = "";
+
+    foods.map((r)=>{
+
+      res += `<div>`;
+      res += `<h2> Name : ${r.name}</h2>`;
+      res += `<img src=${r.image} alt="">`;
+      res += `<h3> Price : ${r.price} </h3>`;
+      res += `<p> Benefits : ${r.benefits} </p>`;
+      res += `</div>`;
+    })
+
+    document.getElementById('fruits').innerHTML=res;
+
+  </script>
+</body>
+</html>

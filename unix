@@ -1,0 +1,39 @@
+command [option] [argument]
+
+ls                 --- to list the files and directories in the folder. 
+pwd                --- to know the present working directory.
+cd ram             --- to change the directory
+ls            
+cd ..
+pwd
+ls
+ls -l                
+mkdir 6pmbatch
+cd 6pmbatch/
+clear
+pwd
+touch file
+vi file
+cat file
+vi file
+cat file
+cat -n file
+rm file
+clear
+mkdir mydir
+cd mydir/
+pwd
+cd ..
+touch myfile
+cd mydir/
+touch mydirfile
+ls
+cd ..
+ls
+ls -l
+ls
+rmdir mydir
+mkdir newdir
+rmdir newdir
+rm -r mydir
+rm myfile

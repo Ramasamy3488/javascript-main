@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    #input1,#input2,#input3,#input4{
+      width: 450px;
+      height: 30px;
+      /* border-color: orange; */
+    }
+
+    #input1:focus{
+      outline: none;
+    }
+
+  </style>
+</head>
+<body onload="alert('welcome on load')">
+  
+
+  <!-- <button type="button" onclick="alertme()">OK</button> -->
+  <!-- <button type="button" onmouseover="alertme()">OK</button> -->
+  <!-- <button type="button" onmouseleave="alertme()">OK</button> -->
+  <!-- <button type="button" onmouseenter="alertme()">OK</button> -->
+
+  <!-- <h1 id="heading">Hello</h1> -->
+
+  <input type="text" onfocus="changeme1()" id="input1">
+  <input type="text" onfocus="changeme2()" id="input1">
+  <input type="text" onfocus="changeme3()" id="input1">
+  <input type="text" onfocus="changeme4()" id="input1">
+  <input type="text" onkeydown="changeme5()" id="input1">
+  <input type="text" onkeyup="changeme6()" id="input1">
+
+  <script>
+    function changeme1(){
+      var inp1 = document.querySelectorAll('#input1')
+      inp1[0].style.border='3px solid orange';
+            
+    }
+    function changeme2(){
+      var inp1 = document.querySelectorAll('#input1')
+      inp1[1].style.border='3px solid orange';
+            
+    }
+    function changeme3(){
+      var inp1 = document.querySelectorAll('#input1')
+      inp1[2].style.border='3px solid orange';
+            
+    }
+    function changeme5(){
+      var inp1 = document.querySelectorAll('#input1')
+      inp1[4].style.border='3px solid orange';
+            
+    }
+    function changeme6(){
+      var inp1 = document.querySelectorAll('#input1')
+      inp1[5].style.border='3px solid orange';
+            
+    }
+  </script>
+</body>
+</html>

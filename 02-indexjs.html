@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- <input type="text" id="input1" placeholder="enter your age">
+    <button onclick="checkforvote()">Check eligibility</button>
+    <h1 id="result"></h1> -->
+
+    <script>
+        var a=5;  // a++ = a = a+1
+      //  console.log(++a);  // 6
+        
+        // console.log(a++);    //6
+       // console.log(a--);    //5   a=a-1
+      // console.log(--a);    //5   a=a-1
+      //  console.log(a);
+
+      // ternary operator
+
+    //    var age = 17;
+    //    var elig_vote = age >=18 ? 'you are eligible for vote' : 'you are not eligible for vote'
+    //    console.log(elig_vote);
+      
+    //    function checkforvote(){
+    //     var num1 = document.getElementById('input1').value;
+    //    var vote_result = parseInt(num1) >= 18 ? 'you are eligible for vote' : 'you are not eligible for vote'
+    //    document.getElementById('result').innerHTML = vote_result;
+    //    }
+
+
+    function simplefun(){
+        console.log('I am simple function!!!');        
+    }
+    simplefun();
+
+    var anonymousfunc = function(){
+        console.log('I am anonymous function!!!'); 
+    }
+    anonymousfunc();
+
+    (function selfinvokingfunc(){
+            console.log("Self Invoiking function or immediate invloking function");            
+         }());
+       
+   var arrowfunc = () =>{
+    console.log('I am arrow function!!!'); 
+   }
+   arrowfunc();
+
+   function fullname(fname,lname){
+    return fname + ' ' + lname + ' I am 25 years';
+   }
+
+   console.log(fullname('Ram', 'Raj'));
+
+   function addnum(a,b,c){
+    return a+b+c
+   }
+
+  console.log(addnum(5,6,5));
+   
+  function employees(jobrole,salary){
+    this.jobrole = jobrole;
+    this.salary = salary;
+  }
+
+  var person1 = new employees('developer', 40000);
+  var person2 = new employees('react developer', 50000);
+  var person3 = new employees('java developer', 50000);
+  var person4 = new employees('python developer', 40000);
+
+  console.log(person1.jobrole) ; console.log(person1.salary);
+  console.log(person2.jobrole) ; console.log(person2.salary);
+  console.log(person3.jobrole) ; console.log(person3.salary);
+  console.log(person4.jobrole) ; console.log(person4.salary);
+  ;
+  
+
+  var mydate = new Date();
+
+  console.log(mydate);
+
+  console.log(mydate.getDate());
+  console.log(mydate.getDay());
+  console.log(mydate.getFullYear());
+  console.log(mydate.getHours());
+  console.log(mydate.getMinutes());
+  console.log(mydate.getMonth());
+  console.log(mydate.getSeconds());
+  console.log(mydate.getTime());
+
+  console.log(Math.min(5,9));
+  console.log(Math.max(5,9));
+  console.log(Math.round(10.5));
+  console.log(Math.round(10.4));
+  console.log(Math.ceil(10.1));
+  console.log(Math.floor(10.9));
+  console.log(Math.abs(-10.9));
+  console.log(Math.sign(-10));
+  console.log(Math.sign(110));
+  console.log(Math.sign(0));
+  console.log(Math.sqrt(9));
+  console.log(Math.random()*100);
+  console.log(Math.round(Math.random()*100));
+ 
+  
+  
+  
+  
+   
+
+      
+       
+
+
+        
+        
+    </script>
+</body>
+</html>
