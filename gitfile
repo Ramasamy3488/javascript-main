@@ -1,1 +1,13 @@
+git branch -M devops
+ls
+git status
+git add.
+git commit -m "Dockerfile added ny devops team"
+clear
+git push
+git log
+git push -u origin devops
+git status
 git add .
+git commit -m "Dockerfile moved from image folder"
+git push
