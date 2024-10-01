@@ -1,0 +1,79 @@
+{
+    "website" : "Myfoods",
+    "author" : "Jesimbegam",
+    "data" :  [
+        {
+          "name":"Apples",
+          "benefits": "Apples contain fiber, vitamin C, and numerous antioxidants. They are very filling and make the perfect snack if you’re hungry between meals.",
+          "image":"./images/apple.jfif",
+          "price":"Rs.120/kg"
+        },
+        {
+          "name":"Avocados",
+          "benefits": "Avocados are different from most other fruits because they contain lots of healthy fat. They are not only creamy and tasty but also high in fiber, potassium, and vitamin C. Swap mayonnaise for avocado as a salad dressing, or spread it on toast for breakfast.",
+          "image":"./images/avocados.jfif",
+          "price":"Rs.150/kg"
+        },
+        {
+          "name":"Bananas",
+          "benefits": "Bananas are a good source of potassium. They’re also high in vitamin B6 and fiber and are convenient and portable.",
+          "image":"./images/bananas.jfif",
+          "price":"Rs.80/kg"
+        },
+        {
+          "name":"Blueberries",
+          "benefits": "Blueberries are both delicious and high in antioxidants.",
+          "image":"./images/blueberries.jfif",
+          "price":"Rs.180/kg"
+        },
+        {
+          "name":"Oranges",
+          "benefits": "Oranges are well known for their vitamin C content. What’s more, they’re high in fiber and antioxidants.",
+          "image":"./images/oranges.jfif",
+          "price":"Rs.100/kg"
+        },
+        {
+          "name":"Apples",
+          "benefits": "Apples contain fiber, vitamin C, and numerous antioxidants. They are very filling and make the perfect snack if you’re hungry between meals.",
+          "image":"./images/apple.jfif",
+          "price":"Rs.120/kg"
+        },
+        {
+          "name":"Avocados",
+          "benefits": "Avocados are different from most other fruits because they contain lots of healthy fat. They are not only creamy and tasty but also high in fiber, potassium, and vitamin C. Swap mayonnaise for avocado as a salad dressing, or spread it on toast for breakfast.",
+          "image":"./images/avocados.jfif",
+          "price":"Rs.150/kg"
+        },
+        {
+          "name":"Bananas",
+          "benefits": "Bananas are a good source of potassium. They’re also high in vitamin B6 and fiber and are convenient and portable.",
+          "image":"./images/bananas.jfif",
+          "price":"Rs.80/kg"
+        },
+        {
+          "name":"Blueberries",
+          "benefits": "Blueberries are both delicious and high in antioxidants.",
+          "image":"./images/blueberries.jfif",
+          "price":"Rs.180/kg"
+        },
+        {
+          "name":"Oranges",
+          "benefits": "Oranges are well known for their vitamin C content. What’s more, they’re high in fiber and antioxidants.",
+          "image":"./images/oranges.jfif",
+          "price":"Rs.100/kg"
+        },
+        {
+          "name":"Blueberries",
+          "benefits": "Blueberries are both delicious and high in antioxidants.",
+          "image":"./images/blueberries.jfif",
+          "price":"Rs.180/kg"
+        },
+        {
+          "name":"Oranges",
+          "benefits": "Oranges are well known for their vitamin C content. What’s more, they’re high in fiber and antioxidants.",
+          "image":"./images/oranges.jfif",
+          "price":"Rs.100/kg"
+        }
+      ]
+  
+}
